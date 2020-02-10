@@ -20,3 +20,4 @@ public static void getPower(List<List<Integer>> result, List<Integer> input, Lis
 }
 
 //https://leetcode.com/problems/subsets/
+//The number of recursive calls, C(n) satisfies the recurrence C(n) = 2C(n - 1), which solves to C(n) = (9(2”). Since we spend 0(n) time within a call, the time complexity is 0(n2n). The space complexity is 0(n2n), since there are 2" subsets, and the average subset size is n/2.
